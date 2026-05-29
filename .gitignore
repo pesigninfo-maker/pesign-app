@@ -40,3 +40,47 @@ status
 stop
 success
 *.
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# environment variables
+.env
+.env.local
+.env.production
+
+# logs
+*.log
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# cache
+.cache/
+
+# macOS
+.DS_Store
+
+# windows
+Thumbs.db
+
+# testing
+coverage/
+
+# vscode
+.vscode/
+
+# idea
+.idea/
+
+
