@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pesign | Premium AI Design & Print",
     description: "Instant Design + Print + Delivery. Built for scale.",
-    url: "https://pesign.in",
+    url: "https://pesignApp.com",
     siteName: "Pesign",
     type: "website",
   },
