@@ -1,0 +1,22 @@
+# =========================================================================
+# PESIGN PLATFORM ROBOTS INSTRUCTIONS
+# Optimization: Protects internal vendor routes from Google Indexing
+# =========================================================================
+
+User-agent: *
+Allow: /
+Allow: /products/
+Allow: /design-services/
+Allow: /printing-services/
+
+# Block crawlers from indexing secure dashboards and internal API routes
+Disallow: /admin/
+Disallow: /designer/
+Disallow: /printer/
+Disallow: /customer/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /_next/
+
+# Sitemap Location
+Sitemap: https://pesign.in/sitemap.xml
