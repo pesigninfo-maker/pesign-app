@@ -1,0 +1,53 @@
+/* ==========================================================================
+   PESIGN PLATFORM - MASTER STYLESHEET
+   Environment: Tailwind CSS Core Injection & Global UI Resets
+   ========================================================================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Enforce smooth scrolling natively across the entire platform */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Prevent text highlighting on interactive elements to feel like a native app */
+  button, 
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar for a premium SaaS feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f8fafc; /* Tailwind slate-50 */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* Tailwind slate-300 */
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; /* Tailwind slate-400 */
+  }
+
+  /* Utility for hiding scrollbars but keeping functionality (good for mobile carousels) */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
