@@ -207,3 +207,9 @@ temp/
 tmp/
 .cache/
 .cursorrules.bak
+
+pesign/
+├── .gitignore               # Enforces security and repository exclusion rules (Root Level)
+├── app/                     # Tracked: Next.js frontend and backend architecture
+├── components/              # Tracked: Atomic UI design patterns
+└── prisma/                  # Tracked: Type-safe operational definitions
