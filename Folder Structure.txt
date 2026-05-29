@@ -1,0 +1,14 @@
+pesign/
+├── src/
+│   ├── app/
+│   │   └── api/
+│   │       └── webhooks/
+│   │           └── clerk/route.ts       # Listens for Clerk webhooks to upsert rows to 'users'
+│   └── lib/
+│       └── db/
+│           ├── client.ts                # Direct connection initialization handling Neon pooling
+│           └── schema/                  # Modular type definition definitions matching our relational script
+│               ├── users.ts             # Contains schema definitions for users & addresses
+│               ├── products.ts          # Contains schemas for categories & variants
+│               ├── orders.ts            # Tracks orders, transactions, and metrics
+│               └── workflows.ts         # Encapsulates internal design_jobs, print_jobs, and deliveries

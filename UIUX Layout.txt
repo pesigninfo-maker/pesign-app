@@ -1,0 +1,20 @@
++-------------------------------------------------------+
+|  <- Back     Order #PS-90283             [Help Desk]  |
++-------------------------------------------------------+
+|                                                       |
+|  [========= Progress Tracker Visualization =========] |
+|   Payment (✓) -> Design (●) -> Print ( ) -> Deliv ( ) |
+|                                                       |
++-------------------------------------------------------+
+|  ASSIGNED STUDIO DESIGN DETAIL                        |
+|  Status: In-Progress Review                           |
+|  "Our design lead is formatting typography variants   |
+|   for your GST Billing Card."                        |
+|                                                       |
+|  [Preview Current Layout Sample Proof]                |
+|                                                       |
+|  +-------------------------------------------------+  |
+|  | [ Button: Submit Change Correction Note ]       |  |
+|  | [ Button: Approve Design Layout File ]          |  |
+|  +-------------------------------------------------+  |
++-------------------------------------------------------+
