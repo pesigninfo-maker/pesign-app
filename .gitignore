@@ -83,4 +83,127 @@ coverage/
 # idea
 .idea/
 
+# =========================================================================
+# PESIGN MASTER PRODUCTION GITIGNORE
+# Target Environment: Next.js, TypeScript, Tailwind, Vercel, Neon, Supabase
+# Optimization: Zero-Leak Enterprise Security & High-Performance CI/CD
+# =========================================================================
 
+# -------------------------------------------------------------------------
+# 1. CORE DEPENDENCIES (Prevents massive repository bloat)
+# -------------------------------------------------------------------------
+node_modules/
+/node_modules
+*/node_modules/*
+.pnpm-store/
+.yarn/
+jspm_packages/
+web_modules/
+
+# -------------------------------------------------------------------------
+# 2. ENVIRONMENT VARIABLES & SECRETS (CRITICAL: Never commit these)
+# -------------------------------------------------------------------------
+.env
+.env.keyword
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
+*.env.*
++---------+
+| SECRETS |
++---------+
+# Exclude specific vendor credentials
+supabase/functions/.env
+.runtime.env
+
+# -------------------------------------------------------------------------
+# 3. NEXT.JS BUILD OUTPUTS & LOCAL CACHES
+# -------------------------------------------------------------------------
+.next/
+/out/
+dist/
+build/
+patched-modules/
+.next-env.d.ts
+
+# -------------------------------------------------------------------------
+# 4. VERCEL DEPLOYMENT CONFIGURATIONS
+# -------------------------------------------------------------------------
+.vercel
+.vercel/
+
+# -------------------------------------------------------------------------
+# 5. DIAGNOSTICS, LOGS & SYSTEM ERRORS
+# -------------------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# -------------------------------------------------------------------------
+# 6. DATABASE, RUNTIMES & TELEMETRY SNAPS
+# -------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sql
+*.dump
+.supabase/
+supabase/.temp/
+.prisma/client/
+
+# -------------------------------------------------------------------------
+# 7. IDE, EDITORS & WORKSPACE METADATA
+# -------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+
+# -------------------------------------------------------------------------
+# 8. OPERATING SYSTEM ARTIFACTS
+# -------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------------------------------------------------------
+# 9. TESTING, COVERAGE & COMPILER CACHES
+# -------------------------------------------------------------------------
+coverage/
+.nyc_output/
+.jest/
+.mocha/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# -------------------------------------------------------------------------
+# 10. TEMPORARY & AI CONTEXT ARTIFACTS
+# -------------------------------------------------------------------------
+.tmp/
+temp/
+tmp/
+.cache/
+.cursorrules.bak
