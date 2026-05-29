@@ -1,0 +1,24 @@
+{
+  "name": "Pesign | Instant Design & Print",
+  "short_name": "Pesign",
+  "description": "India's most advanced platform for professional graphic design, printing, and localized logistics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/PesignApp logo Main.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/PesignApp logo Main.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
