@@ -1,7 +1,0 @@
-**What this file does:** It creates a visual map of the entire codebase, explaining what belongs in every major folder.
-**Where to place it:** Save this file as `pesigninfo-maker/docs/folder-structure.md`.
-**Why it matters:** As projects grow, developers often panic and start putting files in the wrong places, turning the codebase into a tangled mess. This document acts as the law, keeping your architecture strictly organized, scalable, and modular.
-
-***
-
-The Documentation architecture is locked. Type **"proceed"** to generate the essential Database Schema (`database-schema.sql`) or the Configuration Files (`next.config.js`, `tailwind.config.ts`).
