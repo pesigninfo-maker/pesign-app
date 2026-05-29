@@ -19,3 +19,53 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+
+**What this file does:** It serves as the master blueprint and instruction manual for anyone looking at or working on your repository. 
+
+**Where to place it:** At the root of your project folder (`pesigninfo-maker/README.md`).
+
+**Why it matters:** A professional README signals to investors, future hires, and open-source auditors that this is an enterprise-grade project. It provides instant onboarding instructions so new engineers can spin up the platform on their local machines in minutes without asking you basic questions.
+
+---
+
+### FILE: package.json
+
+```json
+{
+  "name": "pesigninfo-maker",
+  "version": "1.0.0",
+  "description": "Production-grade Next.js architecture for Pesign platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.378.0",
+    "framer-motion": "^11.1.9",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5",
+    "tailwindcss": "^3.4.3",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
